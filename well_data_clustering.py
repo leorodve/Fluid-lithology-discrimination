@@ -95,17 +95,6 @@ def display_data_window():
     first_plot = plot_data(VpIP, RhoIP, Vp_max, Vp_min, Rho_max, Rho_min,
                            IP_max, IP_min)
     first_plot.get_tk_widget().pack()
-#    Rand Index for clustering algorithms
-#    Vp - Impedance
-#    Birch_score = metrics.adjusted_rand_score(final1, birch1)
-#    Mbk_score = metrics.adjusted_rand_score(final1, mbk1)
-#    Ac_score = metrics.adjusted_rand_score(final1, ac1)
-#    Ms_score = metrics.adjusted_rand_score(final1, ms1)
-#    Rho - Impedance
-#    Birch_score2 = metrics.adjusted_rand_score(final1, birch2)
-#    Mbk_score2 = metrics.adjusted_rand_score(final1, mbk2)
-#    Ac_score2 = metrics.adjusted_rand_score(final1, ac2)
-#    Ms_score2 = metrics.adjusted_rand_score(final1, ms2)
     return root
 
 #window widget asking the user for file/parameters
